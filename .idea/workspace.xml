@@ -36,6 +36,16 @@
       <change beforePath="$PROJECT_DIR$/../../order_portrait_action/remark_on_project/obj_dict.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../order_portrait_action/remark_on_project/remark_project.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../order_portrait_action/remark_on_project/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/slim.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeze_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/freeze_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pb_to_tfserving.py" beforeDir="false" afterPath="$PROJECT_DIR$/pb_to_tfserving.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../temp_code" beforeDir="false" afterPath="$PROJECT_DIR$/../../temp_code" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../user_action" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../user_level" beforeDir="false" />
@@ -47,8 +57,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/slim$inference.coverage" NAME="inference Coverage Results" MODIFIED="1575470049245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/slim$image_to_tf.coverage" NAME="image_to_tf Coverage Results" MODIFIED="1575600431042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/slim$inference.coverage" NAME="inference Coverage Results" MODIFIED="1575612728736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/slim$grpc_tfserving.coverage" NAME="grpc_tfserving Coverage Results" MODIFIED="1575599461922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/slim$pb_to_tfserving.coverage" NAME="pb_to_tfserving Coverage Results" MODIFIED="1575555152984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/slim$save_model_inference.coverage" NAME="save_model_inference Coverage Results" MODIFIED="1575527877612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -60,12 +70,24 @@
         <entry file="file://$PROJECT_DIR$/datasets/classify.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+              <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_image_classifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-32">
+              <caret line="71" column="23" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="23" />
+              <folding>
+                <element signature="e#759#797#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_to_tf.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
@@ -80,20 +102,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="72" />
+            <state relative-caret-position="282">
+              <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grpc_tfserving.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grpc_tfserving.py">
+        <entry file="file://$PROJECT_DIR$/pb_to_tfserving.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="338">
+              <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -116,7 +147,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,16 +156,16 @@
         <option value="$PROJECT_DIR$/datasets/dataset_factory.py" />
         <option value="$PROJECT_DIR$/train_image_classifier.py" />
         <option value="$PROJECT_DIR$/download_pred_model.py" />
-        <option value="$PROJECT_DIR$/freeze_graph.py" />
         <option value="$PROJECT_DIR$/classify_image_inception_v3.py" />
         <option value="$PROJECT_DIR$/../../Crawling/ctrip_service_scores/ctrip_city_store/project/city_store.py" />
         <option value="$PROJECT_DIR$/../../Crawling/peccancy_inquary/project/info_push.py" />
         <option value="$PROJECT_DIR$/../../Crawling/ctrip_service_scores/ctrip_scores/project/ctrip_service_scores.py" />
-        <option value="$PROJECT_DIR$/inference.py" />
         <option value="$PROJECT_DIR$/save_model_inference.py" />
-        <option value="$PROJECT_DIR$/pb_to_tfserving.py" />
         <option value="$PROJECT_DIR$/grpc_tfserving.py" />
         <option value="$PROJECT_DIR$/image_to_tf.py" />
+        <option value="$PROJECT_DIR$/freeze_graph.py" />
+        <option value="$PROJECT_DIR$/inference.py" />
+        <option value="$PROJECT_DIR$/pb_to_tfserving.py" />
       </list>
     </option>
   </component>
@@ -158,17 +189,6 @@
             <path>
               <item name="slim" type="b2602c69:ProjectViewProjectNode" />
               <item name="slim" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="slim" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="slim" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image_to_tf">
+  <component name="RunManager" selected="Python.inference">
     <configuration name="grpc_tfserving" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="slim" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.inference" />
         <item itemvalue="Python.image_to_tf" />
         <item itemvalue="Python.grpc_tfserving" />
         <item itemvalue="Python.pb_to_tfserving" />
         <item itemvalue="Python.save_model_inference" />
-        <item itemvalue="Python.inference" />
       </list>
     </recent_temporary>
   </component>
@@ -328,17 +348,18 @@
       <updated>1575343181896</updated>
       <workItem from="1575343183643" duration="55000" />
       <workItem from="1575343634930" duration="23380000" />
-      <workItem from="1575440338770" duration="25503000" />
+      <workItem from="1575440338770" duration="27554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48938000" />
+    <option name="totallyTimeSpent" value="50989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1793" y="96" width="1400" height="778" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,7 +373,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3288889" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32361516" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32361516" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32798833" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -432,16 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freeze_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1686">
-          <caret line="497" lean-forward="true" selection-start-line="497" selection-end-line="497" />
-          <folding>
-            <element signature="e#1586#1624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classify_image_inception_v3.py" />
     <entry file="file://$PROJECT_DIR$/BUILD">
       <provider selected="true" editor-type-id="text-editor">
@@ -512,16 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_image_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="467" column="31" selection-start-line="467" selection-start-column="31" selection-end-line="467" selection-end-column="31" />
-          <folding>
-            <element signature="e#759#797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datasets/dataset_factory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -562,36 +563,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pb_to_tfserving.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-533">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/download_pred_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/download_and_convert_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-820" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc_tfserving.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/preprocessing_factory.py">
@@ -604,20 +578,23 @@
         <state relative-caret-position="-1680" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/data/tfrecord/labels.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/datasets/classify.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -627,6 +604,60 @@
           <caret line="122" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download_pred_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_image_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="23" />
+          <folding>
+            <element signature="e#759#797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freeze_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+          <folding>
+            <element signature="e#1586#1624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pb_to_tfserving.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc_tfserving.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

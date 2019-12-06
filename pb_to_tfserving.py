@@ -68,7 +68,7 @@ def change_model(model_path):
 def main():
     model_path = './tmp/frozen_inception_v3.pb'
     change_model(model_path)  # 模型转化save_model格式
-    save_model_predict()  # 加载save_model格式预测图片
+    # save_model_predict()  # 加载save_model格式预测图片
 
 
 if __name__ == '__main__':
